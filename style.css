@@ -51,6 +51,7 @@ header nav form .search {
 }
 
 /* NAV */
+
 .navigate li {
   display: flex;
   justify-content: center;
@@ -67,7 +68,7 @@ header nav form .search {
   align-items: center;
   padding: 11px 12px;
   gap: 10px;
-  color: #6E6D7A;
+  color: #6e6d7a;
 }
 
 .navigate ul li .active {
@@ -79,14 +80,14 @@ header nav form .search {
   align-items: center;
   padding: 11px 12px;
   gap: 10px;
-  background: #F1F1F1 !important;
+  background: #f1f1f1 !important;
   border-radius: 8px;
   color: black !important;
 }
 
 .button-01 {
-  border: 1px solid #E9E9E9;
-  color: #6E6D7A;
+  border: 1px solid #e9e9e9;
+  color: #6e6d7a;
   border-radius: 8px;
   background-color: white;
   font-size: 14px;
@@ -109,9 +110,11 @@ header nav form .search {
 }
 
 /* MAIN  */
-main .card{
+
+main .card {
   border: none;
 }
+
 main .card .infor-card .infor-card-left p {
   font-size: 14px;
   margin-bottom: 0;
@@ -120,10 +123,25 @@ main .card .infor-card .infor-card-left p {
 main .card .infor-card .infor-card-right .like p {
   font-size: 12px;
   margin-bottom: 0;
-
 }
 
 main .card .infor-card .infor-card-right .view p {
   font-size: 12px;
   margin-bottom: 0;
+}
+
+.navbar-mobile {
+  display: none;
+  margin-top: 16px;
+  padding: 16px 0;
+  border-top: 1px solid #dedede;
+}
+
+@media screen and (max-width: 1020px) {
+  .navbar-mobile {
+    display: block;
+  }
+  .navbar-website {
+    display: none;
+  }
 }
